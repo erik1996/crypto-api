@@ -1,0 +1,12 @@
+{
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverageFrom": ["./src/**"],
+    "coveragePathIgnorePatterns": [
+        "node_modules",
+        "src/utils/logger",
+        "src/types",
+        "src/routes",
+        "src/index"
+    ]
+}
